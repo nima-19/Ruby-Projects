@@ -16,5 +16,7 @@ class Computer
   	def Computer.get_users
     		@@users
   	end
+	
 end
-puts my_computer = Computer.new("nima",1234)
+my_computer = Computer.new("nima",1234)
+my_computer.create("Virtual_computer")
